@@ -414,91 +414,102 @@ Entering solvable(Root)
        <li> Move one space ahead, if that space is clear, or</li>
         <li>Jump ahead over exactly one marble of the opposite color, if the space just beyond that marble is clear.</li>
         <p> example, you could make the following sequence of moves:</p>
-        <table  cellspacing="0px" cellpadding="30px" align="center">
-         <tr>
-           <td><b>staring position:</b></td>
-           <td> 
-            <table border="1" cellspacing="0px" cellpadding="6px" bgcolor="silver">
-              <td><img src="https://akarsh-gupta007.github.io/backtracking/black-ball.gif"alt="black-ball"></td>
-              <td><img src="https://akarsh-gupta007.github.io/backtracking/black-ball.gif" alt="black-ball"></td>
-              <td width="44px" > </td>
-              <td><img src="https://akarsh-gupta007.github.io/backtracking/white-ball.gif" alt="white ball"></td>
-              <td><img src="https://akarsh-gupta007.github.io/backtracking/white-ball.gif" alt="white ball"></td>
+    <table align="center" cellspacing="0px" cellpadding="18px">
+        <tr>
+           <td> <b>Starting position:</b></td>
+            <td>
+           <table border="1" cellspacing="0px"  align="center" bgcolor="silver">
+              <td style="padding: 5px;"><img src="https://akarsh-gupta007.github.io/backtracking/black-ball.gif"alt="black-ball"></td>
+              <td style="padding: 5px;"><img src="https://akarsh-gupta007.github.io/backtracking/black-ball.gif" alt="black-ball"></td>
+              <td style="padding: 5px;" width="44px" > </td>
+              <td style="padding: 5px;"><img src="https://akarsh-gupta007.github.io/backtracking/white-ball.gif" alt="white ball"></td>
+              <td style="padding: 5px;" ><img src="https://akarsh-gupta007.github.io/backtracking/white-ball.gif" alt="white ball"></td>
                </table>          
             </td>
         </tr>
-    </table>
-    <table  cellspacing="0px" cellpadding="27px" align="center">
+    </table> <br>
+    <table align="center" cellspacing="0px" cellpadding="14px">
         <tr>
-          <td><b>Black moves ahead:</b></td>
-          <td> 
-           <table border="1" cellspacing="0px" cellpadding="6px" bgcolor="silver">
-             <td><img src="https://akarsh-gupta007.github.io/backtracking/black-ball.gif"alt="black-ball"></td>
-             <td width="44px" > </td>
-             <td><img src="https://akarsh-gupta007.github.io/backtracking/black-ball.gif" alt="black-ball"></td>
-             <td><img src="https://akarsh-gupta007.github.io/backtracking/white-ball.gif" alt="white ball"></td>
-             <td><img src="https://akarsh-gupta007.github.io/backtracking/white-ball.gif" alt="white ball"></td>
+           <td> <b>Black moves ahead:</b></td>
+            <td>
+   
+           <table border="1" cellspacing="0px"  align="center" bgcolor="silver">
+             <td style="padding: 5px;" ><img src="https://akarsh-gupta007.github.io/backtracking/black-ball.gif"alt="black-ball"></td>
+             <td  style="padding: 5px;"width="44px" > </td>
+             <td style="padding: 5px;"><img src="https://akarsh-gupta007.github.io/backtracking/black-ball.gif" alt="black-ball"></td>
+             <td style="padding: 5px;"><img src="https://akarsh-gupta007.github.io/backtracking/white-ball.gif" alt="white ball"></td>
+             <td style="padding: 5px;"><img src="https://akarsh-gupta007.github.io/backtracking/white-ball.gif" alt="white ball"></td>
               </table>          
            </td>
        </tr>
-   </table>
-   <table  cellspacing="0px" cellpadding="28px" align="center">
+   </table><br>
+   <table align="center" cellspacing="0px" cellpadding="30px">
     <tr>
-      <td><b>White jumps:</b></td>
-      <td> 
-       <table border="1" cellspacing="0px" cellpadding="6px" bgcolor="silver">
-         <td><img src="https://akarsh-gupta007.github.io/backtracking/black-ball.gif"alt="black-ball"></td>
-         <td><img src="https://akarsh-gupta007.github.io/backtracking/white-ball.gif" alt="white ball"></td>
-         <td><img src="https://akarsh-gupta007.github.io/backtracking/black-ball.gif" alt="black-ball"></td>
-         <td width="44px" > </td>
-         <td><img src="https://akarsh-gupta007.github.io/backtracking/white-ball.gif" alt="white ball"></td>
+       <td> <b>White jumps:</b></td>
+        <td>
+   
+       <table border="1" cellspacing="0px" align="center" bgcolor="silver">
+         <td style="padding: 5px;"><img src="https://akarsh-gupta007.github.io/backtracking/black-ball.gif"alt="black-ball"></td>
+         <td style="padding: 5px;"><img src="https://akarsh-gupta007.github.io/backtracking/white-ball.gif" alt="white ball"></td>
+         <td style="padding: 5px;"><img src="https://akarsh-gupta007.github.io/backtracking/black-ball.gif" alt="black-ball"></td>
+         <td style="padding: 5px;" width="44px" > </td>
+         <td style="padding: 5px;"><img src="https://akarsh-gupta007.github.io/backtracking/white-ball.gif" alt="white ball"></td>
           </table>          
        </td>
    </tr>
-</table>
-<table  cellspacing="0px" cellpadding="2px" align="center">
+</table> <br>
+<table align="center" cellspacing="0px" cellpadding="14px">
     <tr>
-      <td><b>Black moves ahead:</b></td>
-      <td> 
-       <table border="1" cellspacing="0px" cellpadding="6px" bgcolor="silver">
-         <td><img src="https://akarsh-gupta007.github.io/backtracking/black-ball.gif"alt="black-ball"></td>
-         <td><img src="https://akarsh-gupta007.github.io/backtracking/white-ball.gif" alt="white ball"></td>
-         <td width="44px" > </td>
-         <td><img src="https://akarsh-gupta007.github.io/backtracking/black-ball.gif" alt="black-ball"></td>
-         <td><img src="https://akarsh-gupta007.github.io/backtracking/white-ball.gif" alt="white ball"></td>
+       <td> <b>Black moves ahead:</b></td>
+        <td>
+
+       <table border="1" cellspacing="0px"  align="center" bgcolor="silver">
+         <td style="padding: 5px;"><img src="https://akarsh-gupta007.github.io/backtracking/black-ball.gif"alt="black-ball"></td>
+         <td style="padding: 5px;"><img src="https://akarsh-gupta007.github.io/backtracking/white-ball.gif" alt="white ball"></td>
+         <td style="padding: 5px;" width="44px" > </td>
+         <td style="padding: 5px;"><img src="https://akarsh-gupta007.github.io/backtracking/black-ball.gif" alt="black-ball"></td>
+         <td style="padding: 5px;"><img src="https://akarsh-gupta007.github.io/backtracking/white-ball.gif" alt="white ball"></td>
           </table>          
        </td>
    </tr>
-</table>
-<table  cellspacing="0px" cellpadding="27px" align="center">
+</table> <br>
+<table align="center" cellspacing="0px" cellpadding="27px">
     <tr>
-      <td><b>Black jumps:</b></td>
-      <td> 
-       <table border="1" cellspacing="0px" cellpadding="6px" bgcolor="silver">
-         <td><img src="https://akarsh-gupta007.github.io/backtracking/black-ball.gif"alt="black-ball"></td>
-         <td><img src="https://akarsh-gupta007.github.io/backtracking/white-ball.gif" alt="white ball"></td>
-         <td width="44px" > </td>
-         <td><img src="https://akarsh-gupta007.github.io/backtracking/black-ball.gif" alt="black-ball"></td>
-         <td><img src="https://akarsh-gupta007.github.io/backtracking/white-ball.gif" alt="white ball"></td>
+       <td> <b>Black jumps:</b></td>
+        <td>
+
+       <table border="1" cellspacing="0px"  align="center" bgcolor="silver">
+         <td style="padding: 5px;"><img src="https://akarsh-gupta007.github.io/backtracking/black-ball.gif"alt="black-ball"></td>
+         <td style="padding: 5px;"><img src="https://akarsh-gupta007.github.io/backtracking/white-ball.gif" alt="white ball"></td>
+         <td style="padding: 5px;" width="44px" > </td>
+         <td style="padding: 5px;"><img src="https://akarsh-gupta007.github.io/backtracking/black-ball.gif" alt="black-ball"></td>
+         <td style="padding: 5px;"><img src="https://akarsh-gupta007.github.io/backtracking/white-ball.gif" alt="white ball"></td>
           </table>          
        </td>
    </tr>
-</table>
-<table  cellspacing="0px" cellpadding="29px" align="center">
+</table> <br>
+<table align="center" cellspacing="0px" cellpadding="14px">
     <tr>
-      <td><b>White moves ahead:</b></td>
-      <td> 
-       <table border="1" cellspacing="0px" cellpadding="6px" bgcolor="silver">
-        <td width="44px" > </td>
-         <td><img src="https://akarsh-gupta007.github.io/backtracking/black-ball.gif"alt="white-ball"></td>
-         <td><img src="https://akarsh-gupta007.github.io/backtracking/black-ball.gif" alt="black-ball"></td>
+       <td> <b>White moves ahead:</b></td>
+        <td>
+
+       <table border="1" cellspacing="0px"  align="center" bgcolor="silver">
+        <td  style="padding: 5px;"width="44px" > </td>
+         <td style="padding: 5px;"><img src="https://akarsh-gupta007.github.io/backtracking/black-ball.gif"alt="white-ball"></td>
+         <td style="padding: 5px;"><img src="https://akarsh-gupta007.github.io/backtracking/black-ball.gif" alt="black-ball"></td>
          
-         <td><img src="https://akarsh-gupta007.github.io/backtracking/white-ball.gif" alt="black ball"></td>
-         <td><img src="https://akarsh-gupta007.github.io/backtracking/white-ball.gif" alt="white ball"></td>
+         <td style="padding: 5px;"><img src="https://akarsh-gupta007.github.io/backtracking/white-ball.gif" alt="black ball"></td>
+         <td style="padding: 5px;"><img src="https://akarsh-gupta007.github.io/backtracking/white-ball.gif" alt="white ball"></td>
           </table>          
        </td>
    </tr>
+  
 </table>
+<table align="center">       
+<tr><td><b>stcuk!</b></td></tr></table>
+
+<br>
+
 
 <p>Now to the program. The main program will initialize the board, and call a recursive backtracking routine to attempt to solve the puzzle. The backtracking routine will either succeed and print out a winning path, or it will fail, and the main program will have to print out the bad news.</p>
 
